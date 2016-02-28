@@ -8,12 +8,18 @@ public class List {
 	}
 	
 	private class Example {
+		/**
+		 * 
+		 */
 		private void addList() {
 			ArrayList<String> strings = new ArrayList<String>();
 			strings.add("first");
 			strings.add("second");
 		}
 		
+		/**
+		 * 
+		 */
 		private void removeList() {
 			ArrayList<String> strings = new ArrayList<String>();
 			strings.add("first");
