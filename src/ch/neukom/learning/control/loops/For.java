@@ -29,7 +29,7 @@ public class For {
 	private void multiplicationsOfFiveToHundred() {
 		System.out.println("\nmultiplicationsOfFiveToHundred\n---");
 		//Die Aktion der for-Schleife kann eine beliebig Zuweisung sein, hier wird zum Beispiel i um 5 hochgezählt
-		for(int i = 0; i <= 100; i = i + 5) {
+		for(int i = 100; i >= 0; i = i - 5) {
 			System.out.println(i);
 		}
 	}
